@@ -70,8 +70,9 @@ for file_name in os.listdir(data_directory):
     load_data(file_name)
 
 
-# # To see that bq only update the related partition,
-# # uncomment and run the below code line.
+# # To see that bq only update the related partition:
+# # 1. Comment previous 2 code lines (the for loop)
+# # 2. Uncomment the below code line.
 # # Then, take a look at the bigquery table.
 # # You would see that the `updated_at` will be different
 
