@@ -6,8 +6,6 @@ Though this repo only uses flat-files (csv), the data source can be anything.
 
 ## How to Run
 
-### Setup Environment
-
 - Clone the repo
 
     ```
